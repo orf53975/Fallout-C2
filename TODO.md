@@ -16,6 +16,7 @@ Set up C2 server with an administration client. That way the server can continue
 - handle dns queries
 - prepare DNS responses based off of command to be sent out to agents
 - able to task all agents or interact with specific agents
+- use AES encryption
 
 #Databases
 - log all agents in a database (Possibly sqlite?)
@@ -23,4 +24,4 @@ Set up C2 server with an administration client. That way the server can continue
 - sort by a unique identifier
 - show ip's
 - show user the agent is running as
-- store any information from post modules in a separate table 
+- store any information from post modules in a separate table
